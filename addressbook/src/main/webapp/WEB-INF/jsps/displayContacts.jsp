@@ -32,7 +32,7 @@
 				<td>${contact.phonenumber}</td>
 				<td><a href="deleteContact?id=${contact.id}">Delete</a></td>
 				<td><a href="showUpdate?id=${contact.id}">Edit</a></td>
-		
+				
 			</tr>
 			
 		    
