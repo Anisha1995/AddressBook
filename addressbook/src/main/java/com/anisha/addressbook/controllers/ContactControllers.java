@@ -30,7 +30,7 @@ public class ContactControllers {
 	public String savContact(@ModelAttribute("contact") Contact contact, ModelMap modelmap)
 	{
 		Contact contactsaved = service.saveContact(contact);
-		String msg= "Contact saved";
+		String msg= "Contact saved with id:" +contactsaved.getId();
 		modelmap.addAttribute("msg", msg);
 		return "createContact";
 	}

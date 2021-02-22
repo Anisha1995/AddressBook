@@ -28,7 +28,10 @@
 		<form action="savCont" method="post">
 			
 				<table>
-			
+				<tr>
+					<td>Id</td>
+					<td><input type="text"name="id" class="form-control" /></td>
+				</tr>
 				<tr>
 					<td>First Name</td>
 					<td><input type="text"name="firstname" class="form-control" /></td>
